@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Consulta para obtener los datos de province_name de la tabla province
-$sql = "SELECT province_name FROM provinces";
+$sql = "SELECT * FROM provinces";
 $result = $conn->query($sql);
 
 // Verificar si hay resultados y mostrarlos
